@@ -148,3 +148,28 @@
       const palindromes = function (string) {
         return string.split('').reverse().join('');
       };
+
+      //10 fibbonaci
+      const fibo = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+
+      const fibonacci = function(array, a) {
+        
+      };
+
+      //11 getTheTitles
+
+      const books = [
+        {
+          title: 'Book',
+          author: 'Name'
+        },
+        {
+          title: 'Book2',
+          author: 'Name2'
+        }
+      ]
+      
+      const getTheTitles = function(array) {
+        return array.map(book => book.title);
+      };
+      
