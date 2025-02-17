@@ -110,6 +110,8 @@
       //console.table(comments);
       //console.table(newComments);
 
+      //8 calculator
+
       const arr = [1, 2, 3, 4, 5];
 
       const add = function(a, b) {
@@ -138,4 +140,11 @@
           product *= i;
         }
         return product;
+      };
+
+
+      //9 palindromes
+
+      const palindromes = function (string) {
+        return string.split('').reverse().join('');
       };
